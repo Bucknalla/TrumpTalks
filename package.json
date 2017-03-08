@@ -1,0 +1,33 @@
+{
+  "name": "Trump Talks",
+  "version": "0.0.1",
+  "description": "Talking Trump Web App",
+  "author": "Alex Bucknall, Charlie Cooke & Sam Williams",
+  "bin": {
+  "module-name": "./bin/module-name"
+},
+  "scripts": {
+    "test": "vows --spec --isolate",
+    "start": "node app.js",
+    "predeploy": "echo deploying...",
+    "postdeploy": "echo deployed",
+    "prepublish": "coffee --bare --compile --output lib/foo src/foo/*.coffee"
+  },
+  "main": "lib/foo.js",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/bucknalla/TrumpTalks"
+},
+  "bugs": {
+  "url": "https://github.com/bucknalla/TrumpTalks/issues"
+},
+  "keywords": [
+  "Trump",
+  "express",
+  "fingers"
+],
+  "dependencies": {
+    "express": "*"
+  },
+  "license": "MIT"
+}
